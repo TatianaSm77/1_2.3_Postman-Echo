@@ -21,7 +21,7 @@ public class PosmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Погода сегодня, солнечно?"));
+                .body("data", equalTo("Погода сегодня, пасмурно?"));
 
     }
 
